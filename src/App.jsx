@@ -2,6 +2,7 @@ import React from "react";
 import "./App.scss";
 import { Login, Register } from "./components/login/index";
 
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -10,7 +11,7 @@ class App extends React.Component {
     };
   }
 
-  componentDidMount() {
+componentDidMount() {
     //Add .right by default
     this.rightSide.classList.add("right");
   }
